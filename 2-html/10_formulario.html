@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+	<form action="" method="post">
+		<fieldset>
+<div>
+			<legend>Datos Personales</legend>
+			<label for="Nombre">Nombre completo:</label>
+			<input type="text" id="Nombre" name="Nombre">
+</div>
+<div>
+	<label for="clave">Contraseña:</label>
+			<input type="password" id="clave" name="clave">
+</div>
+<div>
+	<label for=foto> Foto:</label>
+	<input type="file" id="foto" name="foto">
+</div>
+<div>
+	<label for="genero">Genero:</label>
+	<select name="genero" id="genero">
+		<option value="">Seleccione el genero...</option>
+		<option value="F">Femenino</option>
+		<option value="M">Masculino</option>
+	</select>
+</div>
+<div>
+	<label for="descripcion">Descripcion</label>
+	<br>
+	<textarea name="Descripcion" id="Descripcion" cols="30" rows="5"></textarea>
+</div>
+<div>
+	
+</div>
+		</fieldset>
+		<fieldset>
+			<legend>Datos Sena</legend>
+			<input type="hidden" name="centro" value="CPIC">
+			
+			<div>
+				Seleccione uno o más materias
+				<br>
+				<label>
+					<input type="checkbox" name="materias"> 
+					Analisis
+					<br>
+					<input type="checkbox" name="materias"> 
+					Desarrollo
+					<br>
+					<input type="checkbox" name="materias"> 
+					Etica
+					<br>
+					<input type="checkbox" name="materias"> 
+					Comunicacion
+					<br>
+					<input type="checkbox" name="materias"> 
+					Ambiental
+				</label>
+			</div>
+			<div>
+				<br>
+				Selecciones la titulacion
+				<br>
+				<label>
+					<input type="radio" name="titulacion">
+					ADSI
+					<br>
+					<input type="radio" name="titulacion">
+					Soldadura
+					<br>
+					<input type="radio" name="titulacion">
+					Mecanica Industrial
+					<br>
+					<input type="radio" name="titulacion">
+					Tecnico Sistemas
+					<br>
+					<input type="radio" name="titulacion">
+					Automotriz
+				</label>
+			</div>
+		</fieldset>
+		<input type="submxit" value="Enviar">
+		<input type="reset" value="Limpiar Formulario">
+	</form>
+</body>
+</html>
