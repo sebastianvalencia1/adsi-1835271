@@ -1,0 +1,12 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UFT-8")
+        title Reutilizable (mixin)
+    body
+        h1 Reutilizable (mixin)
+        mixin serie(name , temps)
+            li= name+'('+temps+')'
+        +serie('Rick and Morty', 4)
+        +serie('La casa de papel', 3)
+        +serie('Blindspot', 4 )

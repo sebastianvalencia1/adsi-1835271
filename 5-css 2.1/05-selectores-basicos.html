@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selectores Basicos</title>
+    <style>
+        /* Selector universal (todo) */
+        * {
+            border: 1px dashed gray;
+        }
+        /* Selector tipo etiqueta */
+        h1 {
+            color: black;
+            font-family: arial ;
+        }
+        /* Selector Descendente */
+        ul li {
+            color: green;
+            background-color: silver;
+            margin: 4px;
+        }
+        /* selector de tipo clase */
+        .Amarillo {
+            background-color: yellow;
+            color: white;
+            font-family: arial;
+        }
+        /* Selector de ID */
+        #Azul {
+            background-color: blue;
+            color: white;
+            font-family: arial;
+        }
+        /* Selector Combinado */
+        ul.colores li.rojo{
+            background-color: red;
+            color: white;
+            font-family: arial;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Selectores Basicos</h1>
+    <ul class="colores">
+        <li class="Amarillo">Amarillo</li>
+        <li id="Azul">Azul</li>
+        <li class="rojo">Rojo</li>
+    </ul>
+</body>
+</html>
